@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+canvas {
+	display: block;
+}
+
+#stats {
+	color: white;
+	font-size: 36px;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+#play {
+	color: white;
+	font-size: 36px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+#selection {
+	font-size: 18px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	position: absolute;
+}

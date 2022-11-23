@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Audio Visualizer</title>
+    <meta charset="utf8">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://pixijs.download/v5.2.2/pixi.min.js"></script>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+</style>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <p id="stats"></p>
+    <select id="selection" style="display: block">
+        <option value="0">USSR 1945</option>
+        <option value="1">USSR 1967</option>
+        <option value="2">USSR 1985</option>
+        <option value="3">USSR 1990</option>
+        <option value="4" selected>Glory HK</option>
+    </select>
+    <p id="play">CLICK TO PLAY</p>
+</body>
+<script src="loader.js?v=20200422"></script>
+
+</html>
